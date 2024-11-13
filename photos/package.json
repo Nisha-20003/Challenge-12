@@ -1,4 +1,5 @@
 {
+  "homepage": "https://github.com/Nisha-20003/Challenge11.git",
   "name": "photos",
   "private": true,
   "version": "0.0.0",
@@ -9,7 +10,9 @@
      "test": "vite",
       "eject": "vite eject",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "react": "^18.2.0",
