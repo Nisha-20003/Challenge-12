@@ -1,14 +1,15 @@
 {
+  "homepage": "https://Nisha-20003.github.io/Challenge-11",
   "name": "photos",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "start": "vite",
+    "start": "react-scripts start",
     "dev": "vite",
      "test": "vite",
       "eject": "vite eject",
-    "build": "vite build",
+    "build": "react-scripts-build",
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
